@@ -187,7 +187,7 @@ const IMG = (
 const CODE = (props: { children: ReactElement }) => (
     <Chip
         label={
-            <Typography whiteSpace="pre" component="div">
+            <Typography whiteSpace="pre-line" component="div">
                 {props.children}
             </Typography>
         }

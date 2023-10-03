@@ -65,7 +65,7 @@ export default (props: { val: Item | null | undefined }) => {
 
             <Typography
                 marginTop={2}
-                whiteSpace="pre"
+                whiteSpace="pre-line"
                 component="div"
                 overflow="auto"
             >
